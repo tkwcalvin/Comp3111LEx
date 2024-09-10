@@ -4,4 +4,4 @@ This is my first lab in Comp3111-Software Engineering
 
 Here is the screenshot of my project in intelliJ
 
-![image1.png]()
+![image1.png](..%2Fimage1.png)
