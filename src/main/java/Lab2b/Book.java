@@ -22,7 +22,7 @@ public class Book {
     public String getChapter(int i) {
         /* return the chapter by the given index */
         /* PLEASE ADD YOUR CODE HERE */
-        return chapters[i-1];
+        return chapters[i];
 
     }
     public String[] getChapters() {

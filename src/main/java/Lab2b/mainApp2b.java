@@ -3,6 +3,8 @@ package Lab2b;
 /* 	Comp3111LEx\Lab2b\mainApp2b.java
 	main Application for Lab2 Exercise 2	*/
 
+import java.util.Arrays;
+
 public class mainApp2b {
     public static void main(String arg[]) {
         final String array[] = {"Basic Java", "Advanced Java", "Guru Java"};
@@ -12,6 +14,6 @@ public class mainApp2b {
         String anotherArray[] = b.getChapters();
 
         System.out.println("There are " +anotherArray.length+ " chapters.");
-        System.out.println(anotherArray);
+        System.out.println(java.util.Arrays.toString(anotherArray));
     }
 }
